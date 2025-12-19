@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Website</title>
+  <style>
+    body { font-family: system-ui, Arial; max-width: 800px; margin: 2rem auto; padding: 0 1rem; line-height:1.6; }
+    header { border-bottom: 1px solid #eee; padding-bottom: 1rem; margin-bottom: 1rem; }
+    nav a { margin-right: 1rem; color:#0366d6; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hello — welcome to my site</h1>
+    <nav><a href="/">Home</a><a href="/about.html">About</a></nav>
+  </header>
+
+  <main>
+    <p>This is a minimal static site. Edit <code>index.html</code> and push to GitHub to publish with GitHub Pages.</p>
+  </main>
+
+  <footer style="margin-top:2rem;color:#666;font-size:0.9rem">
+    © <span id="year"></span> Your Name
+    <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+  </footer>
+</body>
+</html>
